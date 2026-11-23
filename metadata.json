@@ -1,0 +1,10 @@
+{
+  "name": "CardVault — AI Business Card Scanner & Lead Management",
+  "description": "Mobile-first AI business card scanning station with continuous live camera capture, two-stage OCR and structured field extraction, confidence validation, offline queue sync, duplicate merging, and Excel/CSV export.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

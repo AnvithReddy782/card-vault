@@ -1,0 +1,12 @@
+{
+  "geminiApiKey": "",
+  "googleSheetsWebhookUrl": "",
+  "googleSheetsAutoSync": true,
+  "googleSheetsLastSync": "",
+  "activeEvent": "Default",
+  "availableEvents": [
+    "Default"
+  ],
+  "ocrEnginePreference": "hybrid",
+  "aiStudioModel": "gemini-2.5-flash"
+}

@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build artifacts
+dist/
+build/
+coverage/
+
+# Environment and sensitive keys
+.env
+.env.local
+.env.*.local
+!.env.example
+.cert/
+.aistudio/
+
+# Local database and private user contacts
+data/contacts.json
+data/config.json
+data/*.jpg
+data/*.png
+data/*.jpeg
+!data/config.example.json
+!data/contacts.example.json
+
+# Tesseract downloaded language models
+*.traineddata
+*.traineddata.gz
+
+# Temporary export files and test screenshots
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.xlsx
+*.log
+
+# Cache and tool artifacts
+.DS_Store
+Thumbs.db
+.gstack/
+graphify-out/
+.vite/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
